@@ -1,7 +1,7 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C1","4.7 uF","C_0805_2012Metric",19.7000,31.4625,90.0000,bottom
 "C2","0.22uF","C_0805_2012Metric",19.7000,24.3000,-90.0000,bottom
-"C3","74p","C_0805_2012Metric",32.7000,28.0625,-90.0000,bottom
+"C3","75p","C_0805_2012Metric",32.7000,28.0625,-90.0000,bottom
 "C4","10uF","C_0805_2012Metric",30.3000,56.3625,90.0000,bottom
 "C5","100nF","C_0805_2012Metric",28.3000,56.3625,90.0000,bottom
 "C6","22uF","C_0805_2012Metric",7.7000,48.0625,-90.0000,bottom
@@ -11,6 +11,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "L1","4.7uH","L_Bourns_SRN6045TA",24.9000,33.3000,0.0000,bottom
 "R1","10k","R_0805_2012Metric",19.7000,27.8000,-90.0000,bottom
 "R2","0R","R_0805_2012Metric",42.5000,45.1375,-90.0000,bottom
+"R3","10k","R_0805_2012Metric",5.2500,61.8125,-90.0000,bottom
 "R4","0R","R_0805_2012Metric",42.5000,41.7000,-90.0000,bottom
 "R5","0R","R_0805_2012Metric",38.2000,45.1000,-90.0000,bottom
 "R6","0R","R_0805_2012Metric",38.2750,41.7625,-90.0000,bottom
