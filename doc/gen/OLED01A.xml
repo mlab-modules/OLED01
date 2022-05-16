@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/OLED01A.kicad_sch</source>
-    <date>Mon May 16 10:17:00 2022</date>
+    <date>Mon May 16 11:07:28 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -30,12 +30,14 @@
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="UST_ID">5e3ff8fc1287502a33bad7a3</field>
         <field name="Value">4.7 uF</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Datasheet" value="~"/>
       <property name="Footprint" value="Capacitor_SMD:C_0805_2012Metric"/>
       <property name="Value" value="4.7 uF"/>
+      <property name="UST_ID" value="5e3ff8fc1287502a33bad7a3"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -75,12 +77,14 @@
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="UST_ID">5c70984712875079b91f8b50</field>
         <field name="Value">22uF</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Datasheet" value="~"/>
       <property name="Footprint" value="Capacitor_SMD:C_0805_2012Metric"/>
       <property name="Value" value="22uF"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b50"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -232,12 +236,14 @@
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="UST_ID">5c70984512875079b91f896b</field>
         <field name="Value">0R</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Datasheet" value="~"/>
       <property name="Footprint" value="Resistor_SMD:R_0805_2012Metric"/>
       <property name="Value" value="0R"/>
+      <property name="UST_ID" value="5c70984512875079b91f896b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -249,12 +255,14 @@
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="UST_ID">5c70984512875079b91f896b</field>
         <field name="Value">0R</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Datasheet" value="~"/>
       <property name="Footprint" value="Resistor_SMD:R_0805_2012Metric"/>
       <property name="Value" value="0R"/>
+      <property name="UST_ID" value="5c70984512875079b91f896b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -266,12 +274,14 @@
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="UST_ID">5c70984512875079b91f896b</field>
         <field name="Value">0R</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Datasheet" value="~"/>
       <property name="Footprint" value="Resistor_SMD:R_0805_2012Metric"/>
       <property name="Value" value="0R"/>
+      <property name="UST_ID" value="5c70984512875079b91f896b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -283,12 +293,14 @@
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="UST_ID">5c70984512875079b91f896b</field>
         <field name="Value">0R</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Datasheet" value="~"/>
       <property name="Footprint" value="Resistor_SMD:R_0805_2012Metric"/>
       <property name="Value" value="0R"/>
+      <property name="UST_ID" value="5c70984512875079b91f896b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -343,12 +355,14 @@
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="UST_ID">5c70984512875079b91f8977</field>
         <field name="Value">84k5</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Datasheet" value="~"/>
       <property name="Footprint" value="Resistor_SMD:R_0805_2012Metric"/>
       <property name="Value" value="84k5"/>
+      <property name="UST_ID" value="5c70984512875079b91f8977"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -360,12 +374,14 @@
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
         <field name="Value">10k</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Datasheet" value="~"/>
       <property name="Footprint" value="Resistor_SMD:R_0805_2012Metric"/>
       <property name="Value" value="10k"/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -377,12 +393,14 @@
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="UST_ID">5c70984512875079b91f896b</field>
         <field name="Value">0R</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Datasheet" value="~"/>
       <property name="Footprint" value="Resistor_SMD:R_0805_2012Metric"/>
       <property name="Value" value="0R"/>
+      <property name="UST_ID" value="5c70984512875079b91f896b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -394,12 +412,14 @@
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="UST_ID">5c70984512875079b91f896b</field>
         <field name="Value">0R</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Datasheet" value="~"/>
       <property name="Footprint" value="Resistor_SMD:R_0805_2012Metric"/>
       <property name="Value" value="0R"/>
+      <property name="UST_ID" value="5c70984512875079b91f896b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -408,7 +428,11 @@
     <comp ref="R12">
       <value>0R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="UST_ID">5c70984512875079b91f896b</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="UST_ID" value="5c70984512875079b91f896b"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -420,12 +444,14 @@
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
         <field name="Value">10k</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Datasheet" value="~"/>
       <property name="Footprint" value="Resistor_SMD:R_0805_2012Metric"/>
       <property name="Value" value="10k"/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -437,12 +463,14 @@
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="UST_ID">5c70984612875079b91f899f</field>
         <field name="Value">10k</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Datasheet" value="~"/>
       <property name="Footprint" value="Resistor_SMD:R_0805_2012Metric"/>
       <property name="Value" value="10k"/>
+      <property name="UST_ID" value="5c70984612875079b91f899f"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -453,11 +481,13 @@
       <footprint>Package_TO_SOT_SMD:TSOT-23-6</footprint>
       <fields>
         <field name="Footprint">Package_TO_SOT_SMD:TSOT-23-6</field>
+        <field name="UST_ID">5c70984712875079b91f8b7c</field>
         <field name="Value">MAX5026</field>
       </fields>
       <libsource lib="MLAB_IO" part="MAX5026" description=""/>
       <property name="Footprint" value="Package_TO_SOT_SMD:TSOT-23-6"/>
       <property name="Value" value="MAX5026"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b7c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
