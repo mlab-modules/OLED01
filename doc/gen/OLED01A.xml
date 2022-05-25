@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/OLED01A.kicad_sch</source>
-    <date>Sat May 21 20:52:27 2022</date>
+    <date>Wed May 25 10:14:38 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -155,11 +155,13 @@
       <datasheet>https://cz.mouser.com/datasheet/2/127/oledm128_6e-1388684.pdf</datasheet>
       <fields>
         <field name="Datasheet">https://cz.mouser.com/datasheet/2/127/oledm128_6e-1388684.pdf</field>
+        <field name="UST_ID">628e008ddc56076e9a2237a2</field>
         <field name="Value">EA_OLEDM128-6</field>
       </fields>
       <libsource lib="MLAB_DISPLAY" part="EA_OLEDM128-6" description="OLED display, 128x64 px"/>
       <property name="Datasheet" value="https://cz.mouser.com/datasheet/2/127/oledm128_6e-1388684.pdf"/>
       <property name="Value" value="EA_OLEDM128-6"/>
+      <property name="UST_ID" value="628e008ddc56076e9a2237a2"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -338,12 +340,14 @@
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="UST_ID">628e00e9dc56076e9a2237ce</field>
         <field name="Value">910k</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="Datasheet" value="~"/>
       <property name="Footprint" value="Resistor_SMD:R_0805_2012Metric"/>
       <property name="Value" value="910k"/>
+      <property name="UST_ID" value="628e00e9dc56076e9a2237ce"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>

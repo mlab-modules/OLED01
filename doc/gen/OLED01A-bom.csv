@@ -6,7 +6,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 5,"Unpolarized capacitor, small symbol",C_Small,C4,22uF,C_0805_2012Metric,1, ,,5c70984712875079b91f8b50
 6,"Schottky diode, small symbol",D_Schottky_Small,D1,1A 20V,D_SMA,1, ,,5c70984512875079b91f88b0
 7,,D_ZENER-MLAB_D,D2,"BZV55C-3,6V",D_MiniMELF,1, ,,5c70984512875079b91f88b2
-8,"OLED display, 128x64 px",EA_OLEDM128-6,DISP1,EA OLEDM128-6GGA,EA_OLEDM128-6GGA,1, ,https://cz.mouser.com/datasheet/2/127/oledm128_6e-1388684.pdf,
+8,"OLED display, 128x64 px",EA_OLEDM128-6,DISP1,EA OLEDM128-6GGA,EA_OLEDM128-6GGA,1, ,https://cz.mouser.com/datasheet/2/127/oledm128_6e-1388684.pdf,628e008ddc56076e9a2237a2
 9,1x03 2.54 mm pitch header,HEADER_1x03,J3,HEADER_1x03,Straight_1x03,1, ,,
 10,"2x03 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x03_PARALLEL,J1,HEADER_2x03_PARALLEL,Straight_2x03,1, ,,
 11,"2x04 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x04_PARALLEL,J2,HEADER_2x04_PARALLEL,Straight_2x04,1, ,,
@@ -17,7 +17,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 16,"Resistor, small symbol",R_Small,R6,8k2,R_0805_2012Metric,1, ,,5c70984612875079b91f899c
 17,"Resistor, small symbol",R_Small,R9 R13 R14,10k,R_0805_2012Metric,3, ,,5c70984612875079b91f899f
 18,"Resistor, small symbol",R_Small,R5,73k2,R_0805_2012Metric,1, ,,5cee6226128750448edc1fab
-19,"Resistor, small symbol",R_Small,R7,910k,R_0805_2012Metric,1, ,,
+19,"Resistor, small symbol",R_Small,R7,910k,R_0805_2012Metric,1, ,,628e00e9dc56076e9a2237ce
 20,,MAX5026,U1,MAX5026,TSOT-23-6,1, ,,5c70984712875079b91f8b7c
 
 
