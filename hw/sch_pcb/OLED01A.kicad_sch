@@ -1938,6 +1938,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 481e0e03-059f-45a4-a70b-c8ee71107a05)
   )
+  (text "the display is supposed to be installed in a precission socket. "
+    (at 116.84 60.325 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5f5a1385-75d4-4463-bc21-a6137b8c26df)
+  )
   (text "POWER INPUT" (at 116.84 20.32 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 7b053346-4baa-4d54-ae5f-7b89beeb4fa2)
@@ -2928,7 +2933,7 @@
     (property "Reference" "DISP1" (id 0) (at 160.02 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "EA OLEDM128-6GGA" (id 1) (at 160.02 72.39 0)
+    (property "Value" "EA OLEDM128-6GGA, Precision socket" (id 1) (at 160.02 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Mlab_DISPLAY:EA_OLEDM128-6GGA" (id 2) (at 148.59 86.36 0)
@@ -3477,7 +3482,7 @@
       (reference "D2") (unit 1) (value "BZV55C-3,6V") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/aebe1f22-7f98-48e7-98fb-e427fc2570c4"
-      (reference "DISP1") (unit 1) (value "EA OLEDM128-6GGA") (footprint "Mlab_DISPLAY:EA_OLEDM128-6GGA")
+      (reference "DISP1") (unit 1) (value "EA OLEDM128-6GGA, Precision socket") (footprint "Mlab_DISPLAY:EA_OLEDM128-6GGA")
     )
     (path "/9ccdf6af-8340-4776-9e1b-cf90430c2f74"
       (reference "H1") (unit 1) (value "M3") (footprint "Mlab_Mechanical:MountingHole_3mm")
