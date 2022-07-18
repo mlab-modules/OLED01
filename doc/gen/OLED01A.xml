@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/OLED01A.kicad_sch</source>
-    <date>Wed May 25 10:14:38 2022</date>
+    <date>Mon Jul 18 17:10:43 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -47,11 +47,11 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bbe</field>
+        <field name="UST_ID">5c70984712875079b91f8b50</field>
       </fields>
       <libsource lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue" description=""/>
       <property name="UST_id" value=""/>
-      <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b50"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -72,19 +72,19 @@
       <tstamps>b3167a0a-aabd-452f-b454-2aaecf0fe7d6</tstamps>
     </comp>
     <comp ref="C4">
-      <value>22uF</value>
+      <value>2.2uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
         <field name="Datasheet"/>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
-        <field name="UST_ID">5c70984712875079b91f8b50</field>
+        <field name="UST_ID">5c70984712875079b91f8b51</field>
         <field name="Value">22uF</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Datasheet" value="~"/>
       <property name="Footprint" value="Capacitor_SMD:C_0805_2012Metric"/>
       <property name="Value" value="22uF"/>
-      <property name="UST_ID" value="5c70984712875079b91f8b50"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b51"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -94,11 +94,11 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bbe</field>
+        <field name="UST_ID">5c70984712875079b91f8b50</field>
       </fields>
       <libsource lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue" description=""/>
       <property name="UST_id" value=""/>
-      <property name="UST_ID" value="5c70984812875079b91f8bbe"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b50"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -108,12 +108,12 @@
       <value>100nF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
       <fields>
-        <field name="UST_ID">5c70984812875079b91f8bf2</field>
+        <field name="UST_ID">5c70984712875079b91f8b4c</field>
         <field name="UST_id">C0805_100n</field>
       </fields>
       <libsource lib="ISM02A-rescue" part="C_Small-Device-ISM02A-rescue" description=""/>
       <property name="UST_id" value="C0805_100n"/>
-      <property name="UST_ID" value="5c70984812875079b91f8bf2"/>
+      <property name="UST_ID" value="5c70984712875079b91f8b4c"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -140,17 +140,17 @@
       <value>BZV55C-3,6V</value>
       <footprint>Diode_SMD:D_MiniMELF</footprint>
       <fields>
-        <field name="UST_ID">5c70984512875079b91f88b2</field>
+        <field name="UST_ID">5c70984512875079b91f88b1</field>
       </fields>
       <libsource lib="ISM02A-rescue" part="D_ZENER-MLAB_D" description=""/>
-      <property name="UST_ID" value="5c70984512875079b91f88b2"/>
+      <property name="UST_ID" value="5c70984512875079b91f88b1"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="OLED01A.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6007fae0-4422-4b4f-997e-6f6bb2ad25de</tstamps>
     </comp>
     <comp ref="DISP1">
-      <value>EA OLEDM128-6GGA</value>
+      <value>EA OLEDM128-6GGA, Precision socket</value>
       <footprint>Mlab_DISPLAY:EA_OLEDM128-6GGA</footprint>
       <datasheet>https://cz.mouser.com/datasheet/2/127/oledm128_6e-1388684.pdf</datasheet>
       <fields>
