@@ -125,29 +125,29 @@ jobs:
           path: ${{ env.dir }}_docs/**/*.pdf
       
           
-  pnp:
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: recursive
-          token: ${{ secrets.pat }}
-          ref: ${{ github.head_ref }}
-          
-      - uses: MLAB-project/KiBot@master
-        with:
-          config: ${{ env.kibot }}/pnp.kibot.yaml
-          schema: ${{ env.schema }}
-          board: ${{ env.board }}
-          dir: ${{ env.dir }}_docs
-        
-      # Zde se zahazuji debugovaci videa
-      - uses: actions/upload-artifact@v3
-        if: ${{ success() }}
-        with:
-          name: doc_pnp
-          path: ${{ env.dir }}_docs/
+  #pnp:
+  #  runs-on: ubuntu-latest
+  #  continue-on-error: true
+  #  steps:
+  #    - uses: actions/checkout@v3
+  #      with:
+  #        submodules: recursive
+  #        token: ${{ secrets.pat }}
+  #        ref: ${{ github.head_ref }}
+  #        
+  #    - uses: MLAB-project/KiBot@master
+  #      with:
+  #        config: ${{ env.kibot }}/pnp.kibot.yaml
+  #        schema: ${{ env.schema }}
+  #        board: ${{ env.board }}
+  #        dir: ${{ env.dir }}_docs
+  #      
+  #    # Zde se zahazuji debugovaci videa
+  #    - uses: actions/upload-artifact@v3
+  #      if: ${{ success() }}
+  #      with:
+  #        name: doc_pnp
+  #        path: ${{ env.dir }}_docs/
 
   report:
     runs-on: ubuntu-latest
