@@ -118,7 +118,11 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.2,
+        0.3,
+        0.4,
+        0.5
       ],
       "via_dimensions": [
         {
@@ -345,7 +349,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "OLED01A.kicad_pro",
+    "filename": "OLED01B.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -378,8 +382,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "+12V",
-          "+3V3"
+          "+12V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
