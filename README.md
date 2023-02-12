@@ -7,8 +7,8 @@ Module can be powered only by 3.3V.
 
 
 ## Design
-![OLED01A](doc/gen/img/OLED01A-top.png)
+![OLED01A](doc/gen/img/OLED01B-top.svg)
 
 
 ## Schematics
-[![Schematics](doc/gen/OLED01A-schematic.svg)](doc/gen/OLED01A-schematic.pdf)
+[![Schematics](doc/gen/OLED01B-schematic.svg)](doc/gen/OLED01B-schematic.pdf)
