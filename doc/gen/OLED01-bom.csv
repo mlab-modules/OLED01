@@ -1,0 +1,44 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,UST_ID
+1,,C_Small-Device-ISM02A-rescue,C9,100nF,C_0805_2012Metric,1, ,,C0805_100n 5c70984712875079b91f8b4c
+2,,C_Small-Device-ISM02A-rescue,C10 C11,1uF,C_0805_2012Metric,2, ,,5c70984712875079b91f8b50
+3,"Unpolarized capacitor, small symbol",C_Small,C3 C6,1uF,,2, ,~,
+4,"Unpolarized capacitor, small symbol",C_Small,C2,2.2uF,C_0805_2012Metric,1, ,,5c70984712875079b91f8b51
+5,"Unpolarized capacitor, small symbol",C_Small,C5,10uF,C_0805_2012Metric,1, ,,5c70984812875079b91f8bbe
+6,,C_Small-Device-ISM02A-rescue,C8,10uF,C_0805_2012Metric,1, ,,5c70984812875079b91f8bbe
+7,"Unpolarized capacitor, small symbol",C_Small,C1 C4 C7,C_Small,C_0805_2012Metric,3, ,~,
+8,"Schottky diode, small symbol",D_Schottky_Small,D1,1A 20V 15MQ040N,D_SMA,1, ,,5c70984512875079b91f88b0
+9,,D_ZENER-MLAB_D,D2,"BZV55C-3,6V",D_MiniMELF,1, ,,
+10,"OLED display, 128x64 px",EA_OLEDM128-6,DISP1,"EA OLEDM128-6GGA, Precision socket",EA_OLEDM128-6GGA,1, ,https://cz.mouser.com/datasheet/2/127/oledm128_6e-1388684.pdf,628e008ddc56076e9a2237a2
+11,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Male,J1,Conn_01x04_Male,TE_84952-4_1x04-1MP_P1.0mm_Horizontal,1, ,~,
+12,1x03 2.54 mm pitch header,HEADER_1x03,J5,HEADER_1x03,Straight_1x03,1, ,,
+13,"2x03 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x03_PARALLEL,J2 J3 J4,HEADER_2x03_PARALLEL,Straight_2x03,3, ,,
+14,"2x05 2.54 mm pitch header, 2 pins next to each other are connected",HEADER_2x05_PARALLEL,J6,HEADER_2x05_PARALLEL,Straight_2x05,1, ,,
+15,"Inductor, small symbol",L_Small,L1,4.7uH,L_Bourns_SRN6045TA,1, ,,5c70984412875079b91f8828
+16,"Resistor, small symbol",R_Small,R2 R3 R4 R5 R10 R11 R12,0R,R_0805_2012Metric,7, ,,5c70984512875079b91f896b
+17,"Resistor, small symbol",R_Small,R9,100R,R_0805_2012Metric,1, ,,5c70984512875079b91f8977
+18,"Resistor, small symbol",R_Small,R8,8k2,R_0805_2012Metric,1, ,,5c70984612875079b91f899c
+19,"Resistor, small symbol",R_Small,R6 R13 R14,10k,R_0805_2012Metric,3, ,,5c70984612875079b91f899f
+20,"Resistor, small symbol",R_Small,R7,73k2,R_0805_2012Metric,1, ,,5cee6226128750448edc1fab
+21,"Resistor, small symbol",R_Small,R1,910k,R_0805_2012Metric,1, ,,628e00e9dc56076e9a2237ce
+22,,MAX5026,U3,MAX5026,TSOT-23-6,1, ,,5c70984712875079b91f8b7c
+23,"300mA Low-dropout Voltage Regulator, Vout 1.8V, Vin up to 5.5V, SOT-23",MIC5504-1.8YM5,U2,MIC5504-2.5YM5,SOT-23-5,1, ,http://ww1.microchip.com/downloads/en/DeviceDoc/MIC550X.pdf,
+24,"Dual bidirectional I2C Bus and SMBus voltage level translator, TSSOP-8",PCA9306DP,U5,PCA9306DP,TSSOP-8_3x3mm_P0.65mm,1, ,https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf,
+25,TLV840 Nano-Power Ultra-Low Voltage Supervisor with Adjustable Reset Time Delay,TLV840,U1,TLV840,SOT-23-5,1, ,,
+26,"12-bit, nanopower, 4-wire micro touch screen controller",TSC2007,U4,TSC2007,TSSOP-16_4.4x5mm_P0.65mm,1, ,https://www.ti.com/lit/ds/symlink/tsc2007.pdf?ts=1669243262282,
+
+
+
+
+
+Project info:
+Schematic:,OLED01
+Variant:,default
+Revision:,
+Date:,2022-05-11
+KiCad Version:,6.0.10+dfsg-1~bpo11+1
+Statistics:
+Component Groups:,26
+Component Count:,40
+Fitted Components:,40
+Number of PCBs:,1
+Total Components:,40
