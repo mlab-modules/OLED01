@@ -795,7 +795,7 @@
       (net 23 "+5V") (pinfunction "VCC") (pintype "unspecified") (tstamp ffc8e9d8-2c62-4d9e-a041-77e4f7d91267))
     (pad "6" smd rect locked (at 1.31 0.95 270) (size 1.22 0.65) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 18 "Net-(D1-Pad2)") (pinfunction "LX") (pintype "unspecified") (tstamp 831335d8-491a-4fe9-8e1a-75fda31b43b4))
-    (model "${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-6.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1153,7 +1153,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "B.Cu")
     (tedit 5F6F9B37) (tstamp 74dd5589-f9d6-4546-a76d-a165d9263477)
-    (at 148.8 16.17 180)
+    (at 149 116.3 180)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Sheetfile" "OLED01B.kicad_sch")
@@ -1204,7 +1204,7 @@
 
   (footprint "Package_SO:TSSOP-8_3x3mm_P0.65mm" (layer "B.Cu")
     (tedit 5A02F25C) (tstamp 8c810234-28cb-4dc1-aceb-b9564a73ef32)
-    (at 176.7 35.9 180)
+    (at 157.4 113.7 180)
     (descr "TSSOP8: plastic thin shrink small outline package; 8 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot505-1_po.pdf)")
     (tags "SSOP 0.65")
     (property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf")
@@ -1513,7 +1513,7 @@
 
   (footprint "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" (layer "B.Cu")
     (tedit 5C745321) (tstamp ac65baf1-66f4-4b3e-8c9a-805e5aa71d66)
-    (at 168.75 27.07 180)
+    (at 155.2 119.2 180)
     (descr "SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, pads 1-2 bridged with 1 copper strip")
     (tags "net tie solder jumper bridged")
     (property "Datasheet" "")
@@ -1761,7 +1761,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "B.Cu")
     (tedit 5F68FEEE) (tstamp c5f13be5-44ee-4fa0-b5fc-6bd5151feff7)
-    (at 163.7 26.8 180)
+    (at 169.45 72 180)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Datasheet" "")
@@ -1938,7 +1938,7 @@
 
   (footprint "Package_TO_SOT_SMD:SOT-23-5" (layer "B.Cu")
     (tedit 5F6F9B37) (tstamp e53f99b5-7270-4b5f-ad9e-e65eceda47f9)
-    (at 151.1 87.9 180)
+    (at 169.8375 74.25 180)
     (descr "SOT, 5 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOT TO_SOT_SMD")
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5")
