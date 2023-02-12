@@ -1,8 +1,15 @@
-description: 'MLAB OLED display breakout '
+description: MLAB OLED display breakout. The module uses high-quality OLED display
+  with high contrast and readability.
 github_branch: OLED01B
 github_repo: OLED01
 github_url: https://github.com/mlab-modules/OLED01
 homepage: true
 mark: 50
-tags: []
+tags:
+- display
+- i2c
+- mlab
+- oled
+- oled-display
+- spi
 title: OLED01
