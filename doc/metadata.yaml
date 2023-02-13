@@ -1,10 +1,10 @@
+category: Display
 description: MLAB OLED display breakout. The module uses high-quality OLED display
   with high contrast and readability.
 github_branch: OLED01B
 github_repo: OLED01
 github_url: https://github.com/mlab-modules/OLED01
 homepage: true
-category: Display
 images:
 - doc/assets/graphics/images/Li-ion-Charger.jpg
 - doc/assets/graphics/images/MLAB_mosaic.jpg
