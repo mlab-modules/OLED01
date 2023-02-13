@@ -705,7 +705,7 @@
 <path d="M1658000 653000 L1639000 661000 "/>
 </g>
 <g style="fill-opacity: 0.0;stroke-width: 1500.000000;stroke-opacity: 1;stroke-linecap: round;stroke-linejoin: round">
-<text x="1303000.000000" y="644000.000000" textLength="139714.300000" font-size="12000.000000" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">#RES #CS CLK MOSI</text>
+<text x="1303000.000000" y="644000.000000" textLength="141664.290000" font-size="12000.000000" lengthAdjust="spacingAndGlyphs" text-anchor="middle" opacity="0">#RES #CS CLK MOSI</text>
 <g class="stroked-text"><desc>#RES #CS CLK MOSI</desc>
 <path d="M1234857 636857 L1241285 636857 "/>
 <path d="M1237428 632571 L1234857 645428 "/>
