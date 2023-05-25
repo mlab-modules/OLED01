@@ -2,16 +2,21 @@ category: Display
 description: MLAB OLED display breakout. The module uses high-quality OLED display
   with high contrast and readability.
 github_branch: OLED01B
+github_branches:
+- OLED01A
+- OLED01B
 github_repo: OLED01
 github_url: https://github.com/mlab-modules/OLED01
 homepage: true
+image: doc/gen/img/OLED01-bottom.png
 images:
-- doc/gen/img/OLED01-top.png
 - doc/gen/img/OLED01-bottom.png
-- doc/gen/OLED01-schematic.svg
-- doc/gen/img/OLED01-top.svg
+- doc/gen/img/OLED01-top.png
 - hw/cam_profi/docs/OLED01B-assembly_page_01.svg
 - hw/cam_profi/docs/OLED01B-assembly_page_02.svg
+- doc/gen/OLED01-schematic.svg
+- doc/gen/img/OLED01-top.svg
+issues: 6
 mark: 50
 mod_ibom: hw/cam_profi/ibom/OLED01-ibom.html
 mod_scheme: doc/gen/OLED01-schematic.pdf
