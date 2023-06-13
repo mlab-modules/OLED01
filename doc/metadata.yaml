@@ -15,8 +15,8 @@ images:
 - hw/cam_profi/docs/OLED01B-assembly_page_01.svg
 - hw/cam_profi/docs/OLED01B-assembly_page_02.svg
 - doc/gen/OLED01-schematic.svg
-- doc/gen/img/OLED01-bottom.svg
 - doc/gen/img/OLED01-top.svg
+- doc/gen/img/OLED01-bottom.svg
 issues: 6
 mark: 50
 mod_ibom: hw/cam_profi/ibom/OLED01-ibom.html
