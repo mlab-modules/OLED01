@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/OLED01.kicad_sch</source>
-    <date>Wed Jun 14 18:54:11 2023</date>
+    <date>Wed Jun 14 19:26:50 2023</date>
     <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1294,16 +1294,16 @@
       <node ref="DISP1" pin="32" pinfunction="D0" pintype="input"/>
       <node ref="J4" pin="3" pintype="input"/>
       <node ref="J4" pin="4" pintype="input"/>
-      <node ref="R21" pin="2" pintype="passive"/>
-      <node ref="U5" pin="4" pinfunction="SDA1" pintype="bidirectional"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="SCL1" pintype="bidirectional"/>
     </net>
     <net code="11" name="/D1">
       <node ref="DISP1" pin="33" pinfunction="D1" pintype="input"/>
       <node ref="J4" pin="1" pintype="input"/>
       <node ref="J4" pin="2" pintype="input"/>
       <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="R20" pin="2" pintype="passive"/>
-      <node ref="U5" pin="3" pinfunction="SCL1" pintype="bidirectional"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="SDA1" pintype="bidirectional"/>
     </net>
     <net code="12" name="/D2">
       <node ref="DISP1" pin="34" pinfunction="D2" pintype="input"/>
@@ -1329,16 +1329,16 @@
       <node ref="R18" pin="1" pintype="passive"/>
     </net>
     <net code="17" name="/SCLIN">
-      <node ref="J6" pin="7" pintype="input"/>
-      <node ref="J6" pin="8" pintype="input"/>
-      <node ref="R14" pin="2" pintype="passive"/>
-      <node ref="U5" pin="5" pinfunction="SDA2" pintype="bidirectional"/>
-    </net>
-    <net code="18" name="/SDAIN">
       <node ref="J6" pin="3" pintype="input"/>
       <node ref="J6" pin="4" pintype="input"/>
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="U5" pin="6" pinfunction="SCL2" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/SDAIN">
+      <node ref="J6" pin="7" pintype="input"/>
+      <node ref="J6" pin="8" pintype="input"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="SDA2" pintype="bidirectional"/>
     </net>
     <net code="19" name="/Vcomh">
       <node ref="C2" pin="1" pintype="passive"/>
