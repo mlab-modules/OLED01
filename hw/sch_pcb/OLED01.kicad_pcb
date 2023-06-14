@@ -194,8 +194,8 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/d5b4ee16-e759-497e-8377-97158519928e")
-    (attr through_hole)
-    (fp_text reference "H2" (at 0 -4.191) (layer "F.SilkS") hide
+    (attr through_hole exclude_from_bom)
+    (fp_text reference "H3" (at 0 -4.191) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
       (tstamp 8714e94e-0550-4748-b6f0-91cbb187807b)
     )
@@ -222,7 +222,7 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/6c86aaaa-9174-4bc6-95df-e076880a11e1")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "H4" (at 0 -4.191) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
       (tstamp 2bd2ec2b-22c7-44e0-8c13-18cdf3dfd5f0)
@@ -387,8 +387,8 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/760863e4-da73-4058-a60b-a7063f12c80c")
-    (attr through_hole)
-    (fp_text reference "H3" (at 0 -4.191) (layer "F.SilkS") hide
+    (attr through_hole exclude_from_bom)
+    (fp_text reference "H1" (at 0 -4.191) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
       (tstamp a83fe960-8a50-4613-bec2-47448e8f743b)
     )
@@ -415,8 +415,8 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/9ccdf6af-8340-4776-9e1b-cf90430c2f74")
-    (attr through_hole)
-    (fp_text reference "H1" (at 0 -4.191) (layer "F.SilkS") hide
+    (attr through_hole exclude_from_bom)
+    (fp_text reference "H2" (at 0 -4.191) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
       (tstamp 46fafe7f-8792-48ae-8727-8db1d25e2543)
     )
