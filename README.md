@@ -6,7 +6,7 @@ The module features an integrated I2C level converter, which allows you to opera
 
 The module includes a pair of LEDs and a buzzer. Booth is drivered by integrated transistor.
 
-OLED display requires to start after powering up. For this purpose, the module is equipped with a reset circuit to ensure proper initialization of the display.
+OLED display requires to restart after powering up. For this purpose, the module is equipped with a reset circuit to ensure proper initialization of the display.
 
 ## Design
 ![OLED01](/doc/gen/img/OLED01-top.svg) ![OLED01](/doc/gen/img/OLED01-bottom.svg)
