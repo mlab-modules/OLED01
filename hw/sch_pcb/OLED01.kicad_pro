@@ -55,7 +55,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|144012500|119790000|61f79ca1-6302-4bb3-97e3-0695c5922e3d|200e0848-f633-4ef4-aa44-b7890c136052",
+        "copper_edge_clearance|145412500|121785000|e2695886-9c87-4731-b0d3-7e90624dcaeb|1f121e12-c5f4-4b8e-9420-515178467775",
+        "copper_edge_clearance|149825000|119960000|2819b30b-d1bb-4016-9c75-5b74fcd541b6|be976d5b-e5d7-4198-9656-c48c2fdf2bb7",
+        "copper_edge_clearance|149825000|121690000|c93934ff-5cd0-4f4d-8e7d-1338a12ac0c2|4868dbf7-4ae8-4bf1-9fd2-3903e5d7d1e0",
+        "silk_over_copper|126625314|120136178|d29f7953-295f-4fcd-9b8d-5c49378dff33|cae2c427-688e-43d0-b70a-5c2ca917a591",
+        "silk_over_copper|135742535|119291344|d29f7953-295f-4fcd-9b8d-5c49378dff33|05c3bb26-ffe5-4430-830f-6db822fdabc1"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
