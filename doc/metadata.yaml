@@ -10,11 +10,11 @@ github_url: https://github.com/mlab-modules/OLED01
 homepage: true
 image: doc/gen/img/OLED01-bottom.png
 images:
-- doc/gen/img/OLED01-bottom.png
 - doc/gen/img/OLED01-top.png
+- doc/gen/img/OLED01-bottom.png
 - doc/gen/OLED01-schematic.svg
-- doc/gen/img/OLED01-top.svg
 - doc/gen/img/OLED01-bottom.svg
+- doc/gen/img/OLED01-top.svg
 - hw/cam_profi/docs/OLED01B-assembly_page_01.svg
 - hw/cam_profi/docs/OLED01B-assembly_page_02.svg
 issues: 6
@@ -28,4 +28,10 @@ tags:
 - oled
 - oled-display
 - spi
+- mlab-module
+- kicad
+- kicad-pcb
+- kicad-project
+- mlab-kicad
+- pcb
 title: OLED01
