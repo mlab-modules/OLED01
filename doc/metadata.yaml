@@ -1,6 +1,8 @@
 category: Display
 description: MLAB OLED display breakout. The module uses high-quality OLED display
-  with high contrast and readability.
+  with high contrast and readability. It includes a level converter, reset circuit,
+  LEDs, and a buzzer. Suitable for various electronics applications, where you need
+  to show something.
 github_branch: OLED01B
 github_branches:
 - OLED01A
@@ -10,11 +12,11 @@ github_url: https://github.com/mlab-modules/OLED01
 homepage: true
 image: doc/gen/img/OLED01-bottom.png
 images:
-- doc/gen/img/OLED01-top.png
 - doc/gen/img/OLED01-bottom.png
+- doc/gen/img/OLED01-top.png
 - doc/gen/OLED01-schematic.svg
-- doc/gen/img/OLED01-bottom.svg
 - doc/gen/img/OLED01-top.svg
+- doc/gen/img/OLED01-bottom.svg
 - hw/cam_profi/docs/OLED01B-assembly_page_01.svg
 - hw/cam_profi/docs/OLED01B-assembly_page_02.svg
 issues: 6
@@ -36,4 +38,7 @@ tags:
 - pcb
 - mlab-display
 - mlab-ui
+- ssd1306
+- ssd1306-oled
+- oledm128-6gga
 title: OLED01

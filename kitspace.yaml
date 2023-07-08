@@ -6,4 +6,6 @@ eda:
 gerbers: hw/cam_profi/
 site: https://github.com/mlab-modules/OLED01
 summary: MLAB OLED display breakout. The module uses high-quality OLED display with
-  high contrast and readability.
+  high contrast and readability. It includes a level converter, reset circuit, LEDs,
+  and a buzzer. Suitable for various electronics applications, where you need to show
+  something.
