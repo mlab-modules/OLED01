@@ -17,11 +17,11 @@ images:
 - doc/gen/OLED01-schematic.svg
 - doc/gen/img/OLED01-top.svg
 - doc/gen/img/OLED01-bottom.svg
-- hw/cam_profi/docs/OLED01B-assembly_page_01.svg
-- hw/cam_profi/docs/OLED01B-assembly_page_02.svg
+- hw/cam_profi/assembly/OLED01-assembly_page_02.svg
+- hw/cam_profi/assembly/OLED01-assembly_page_01.svg
 issues: 6
 mark: 50
-mod_ibom: hw/cam_profi/ibom/OLED01-ibom.html
+mod_ibom: hw/cam_profi/OLED01-ibom.html
 mod_scheme: doc/gen/OLED01-schematic.pdf
 tags:
 - display
