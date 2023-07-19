@@ -10,6 +10,7 @@ github_branches:
 github_repo: OLED01
 github_url: https://github.com/mlab-modules/OLED01
 homepage: true
+image_title: doc/gen/img/OLED01-top.png
 images:
 - doc/gen/img/OLED01-bottom.png
 - doc/gen/img/OLED01-top.png
@@ -41,5 +42,4 @@ tags:
 - ssd1306-oled
 - oledm128-6gga
 title: OLED01
-image_title: doc/gen/img/OLED01-top.png
-updated: '2023-07-19T21:03:34.669424+00:00'
+updated: '2023-07-19T23:58:47.646503+00:00'
