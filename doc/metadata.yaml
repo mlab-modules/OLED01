@@ -15,10 +15,10 @@ images:
 - doc/gen/img/OLED01-bottom.png
 - doc/gen/img/OLED01-top.png
 - doc/gen/OLED01-schematic.svg
-- doc/gen/img/OLED01-top.svg
 - doc/gen/img/OLED01-bottom.svg
-- hw/cam_profi/assembly/OLED01-assembly_page_02.svg
+- doc/gen/img/OLED01-top.svg
 - hw/cam_profi/assembly/OLED01-assembly_page_01.svg
+- hw/cam_profi/assembly/OLED01-assembly_page_02.svg
 issues: 6
 mark: 80
 mod_ibom: hw/cam_profi/OLED01-ibom.html
@@ -42,4 +42,4 @@ tags:
 - ssd1306-oled
 - oledm128-6gga
 title: OLED01
-updated: '2023-07-21T03:44:22.601698+00:00'
+updated: '2023-09-11T01:03:56.711342+00:00'
