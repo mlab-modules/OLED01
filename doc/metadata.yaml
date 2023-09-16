@@ -23,7 +23,7 @@ issues: 6
 mark: 80
 mod_ibom: hw/cam_profi/OLED01-ibom.html
 mod_scheme: doc/gen/OLED01-schematic.pdf
-status: 0
+status: 2
 tags:
 - display
 - i2c
