@@ -7,6 +7,10 @@ github_branch: OLED01B
 github_branches:
 - OLED01A
 - OLED01B
+github_description: MLAB OLED display breakout. The module uses high-quality OLED
+  display with high contrast and readability. It includes a level converter, reset
+  circuit, LEDs, and a buzzer. Suitable for various electronics applications, where
+  you need to show something.
 github_repo: OLED01
 github_url: https://github.com/mlab-modules/OLED01
 homepage: true
@@ -43,4 +47,4 @@ tags:
 - ssd1306-oled
 - oledm128-6gga
 title: OLED01
-updated: '2023-09-16T22:01:58.055969+00:00'
+updated: '2023-09-17T11:41:13.120588+00:00'
