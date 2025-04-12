@@ -1,14 +1,12 @@
-# I2C OLED Module: OLED01
+# OLED01 - OLED Display Module with I2C interface
 
-The OLED01 is an MLAB module, designed for interfacing OLED displays, specifically the [EA OLEDM128-6GGA](https://www.lcd-module.com/fileadmin/eng/pdf/grafik/oledm128-6e.pdf). This versatile module provides an efficient and practical solution for integrating high-contrast, power-efficient OLED displays into various systems.
+The OLED01 is an MLAB module, designed for using OLED displays, specifically the [EA OLEDM128-6GGA](https://www.lcd-module.com/fileadmin/eng/pdf/grafik/oledm128-6e.pdf). This  module provides a solution for integrating high-contrast OLED displays into various systems.
 
-Built around the reliable and robust [SSD1306](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf) controller, this module communicates using the I2C protocol. The module's design incorporates standard MLAB headers and an internal 12V power supply, specifically for powering the OLED display.
+Built around the [SSD1306](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf) controller, this module communicates using the I2C protocol. The module's design uses standard MLAB headers and an internal 12V power supply, for powering the OLED display.
 
 An important feature of the OLED01 module is the integrated I2C level converter, which ensures the display can operate within a 3-5V power supply range, with I2C bus levels attaining the same values.
 
-Beyond the OLED display connection, the OLED01 module incorporates a pair of LEDs and a buzzer, driven by an integrated transistor. This extends the module's functionality, providing additional user feedback and making it a more versatile component for an array of applications.
-
-Understanding the operational requirements of OLED displays, the OLED01 module is equipped with a reset circuit to ensure proper initialization of the display post power-up.
+Beyond the OLED display connection, the OLED01 module incorporates a pair of LEDs and a buzzer, driven by an integrated transistor.  The OLED01 module is equipped with a reset circuit to ensure proper clear display initialization after power-up.
 
 ## Design
 ![OLED01](/doc/gen/img/OLED01-top.svg) ![OLED01](/doc/gen/img/OLED01-bottom.svg)
