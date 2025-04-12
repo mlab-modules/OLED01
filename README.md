@@ -18,20 +18,20 @@ The OLED01 module is designed to promote user-friendly integration and durabilit
 - **Interface**: I2C
 - **Power Supply**: 3-5V operational range for I2C, Internal 12V supply for OLED
 - **Display**: 128x64 pixels resolution
-- **Additional Features**: Pair of LEDs and buzzer driven by integrated transistor
+- **Additional Features**: Pair of LEDs and buzzer driven by integrated transistor by external GPIO
 - **Reset Circuit**: Included for proper initialization of the OLED display
 
 ## Possible Applications
 
 The OLED01 module's versatility allows for use in a wide range of applications:
 
-1. **Consumer Electronics:** The OLED01 is ideal for wearable devices, handheld gadgets, and home automation controllers, thanks to the high-contrast, bright output and power efficiency of the OLED display.
 2. **Industrial Control Systems:** The robustness and clarity of the OLED display, coupled with the additional buzzer and LED indicators, make this module a top choice for control panels in industrial machinery and robotics.
 3. **Automotive Systems:** The OLED01 can serve as an interface for vehicle systems, providing clear and sharp visual output under various lighting conditions.
-4. **Medical Devices:** With its high contrast and sharpness, the module is suitable for devices requiring high-quality visual feedback, like medical monitoring devices.
-5. **Experimental Projects and Prototyping:** The module's easy integration through MLAB headers and broad compatibility with I2C interface makes it an excellent choice for experimental electronics projects, prototyping, and educational applications.
+5. **Experimental Projects and Prototyping:** The module's easy integration through MLAB headers and broad compatibility with the I2C interface make it suitable for experimental electronics projects, prototyping, and educational applications.
 
 ## Schematics
 [![Schematics](/doc/gen/OLED01-schematic.svg)](/doc/gen/OLED01-schematic.pdf)
 
-The provided schematics offer a thorough insight into the OLED01 module's electrical design, proving helpful for troubleshooting, modifications, or gaining a better understanding of the operation and interconnectivity of the various components within the module.
+## Usage examples
+
+  * [Li-ion-Charger](https://github.com/MLAB-project/Li-ion-Charger)
