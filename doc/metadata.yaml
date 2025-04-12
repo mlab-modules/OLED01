@@ -1,16 +1,12 @@
 category: Display
-description: MLAB OLED display breakout. The module uses high-quality OLED display
-  with high contrast and readability. It includes a level converter, reset circuit,
-  LEDs, and a buzzer. Suitable for various electronics applications, where you need
-  to show something.
+description: ' OLED module with SSD1306 controller, I2C interface level shifter, integrated
+  buzzer, and LEDs.'
 github_branch: OLED01B
 github_branches:
 - OLED01A
 - OLED01B
-github_description: MLAB OLED display breakout. The module uses high-quality OLED
-  display with high contrast and readability. It includes a level converter, reset
-  circuit, LEDs, and a buzzer. Suitable for various electronics applications, where
-  you need to show something.
+github_description: ' OLED module with SSD1306 controller, I2C interface level shifter,
+  integrated buzzer, and LEDs.'
 github_repo: OLED01
 github_url: https://github.com/mlab-modules/OLED01
 homepage: true
@@ -47,4 +43,4 @@ tags:
 - ssd1306-oled
 - oledm128-6gga
 title: OLED01
-updated: '2025-04-12T11:03:02.070938+00:00'
+updated: '2025-04-12T11:13:11.122122+00:00'
