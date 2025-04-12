@@ -1,21 +1,25 @@
 # OLED01 - OLED Display Module with I2C interface
 
-The OLED01 is an MLAB module, designed for using OLED displays, specifically the [EA OLEDM128-6GGA](https://www.lcd-module.com/fileadmin/eng/pdf/grafik/oledm128-6e.pdf). This  module provides a solution for integrating high-contrast OLED displays into various systems.
+The OLED01 is an MLAB module, designed for using OLED displays, specifically the [EA OLEDM128-6GGA](https://www.lcd-module.com/fileadmin/eng/pdf/grafik/oledm128-6e.pdf) built around the [SSD1306](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf) controller, this module communicates using the I2C protocol. The module's design uses standard MLAB headers and an internal 12V power supply, for powering the OLED display. This  module provides a solution for integrating high-contrast OLED displays into various systems.
 
-Built around the [SSD1306](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf) controller, this module communicates using the I2C protocol. The module's design uses standard MLAB headers and an internal 12V power supply, for powering the OLED display.
-
-An important feature of the OLED01 module is the integrated I2C level converter, which ensures the display can operate within a 3-5V power supply range, with I2C bus levels attaining the same values.
-
-Beyond the OLED display connection, the OLED01 module incorporates a pair of LEDs and a buzzer, driven by an integrated transistor.  The OLED01 module is equipped with a reset circuit to ensure proper clear display initialization after power-up.
+An important feature of the OLED01 module is the integrated I2C level converter, which can operate within a 3-5V power supply and signal range. The OLED01 also incorporates a pair of LEDs and a buzzer, driven by an integrated transistor and it is equipped with a reset circuit to ensure proper clear display initialization after power-up.
 
 ## Design
 ![OLED01](/doc/gen/img/OLED01-top.svg) ![OLED01](/doc/gen/img/OLED01-bottom.svg)
 
 The OLED01 module is designed to promote user-friendly integration and durability. Its compact form factor allows for easy placement within diverse hardware configurations, and the robust construction assures longevity. The contained OLED display delivers a resolution of 128x64 pixels with high-contrast visual output.
 
+### Touchscreen Support
+
+The OLED01 module supports 4-wire resistive touchscreens through integration with the [TSC2007 touch controller](https://www.ti.com/lit/ds/symlink/tsc2007.pdf). This I2C-based controller enables position and pressure detection with 12-bit resolution, low power consumption, and internal preprocessing for noise reduction. The PENIRQ output allows interrupt-based touch event detection.
+
+This expands the module's usability for interactive user interfaces in embedded systems.
+
+
 ## Specifications
 
 - **Interface**: I2C
+- **Touchscreen Support**: 4-wire resistive touchscreen interface via TSC2007 (I2C, 12-bit ADC)
 - **Power Supply**: 3-5V operational range for I2C, Internal 12V supply for OLED
 - **Display**: 128x64 pixels resolution
 - **Additional Features**: Pair of LEDs and buzzer driven by integrated transistor by external GPIO
