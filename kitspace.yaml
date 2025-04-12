@@ -6,4 +6,4 @@ eda:
 gerbers: hw/cam_profi/
 site: https://github.com/mlab-modules/OLED01
 summary: ' OLED module with SSD1306 controller, I2C interface level shifter, integrated
-  buzzer, and LEDs.'
+  buzzer, touchscreen, and LEDs.'
