@@ -1,4 +1,4 @@
-# OLED01 - OLED Display Module with I2C interface
+# OLED01 - OLED Display Touchscreen with I2C interface
 
 The OLED01 is an MLAB module, designed for using OLED displays, specifically the [EA OLEDM128-6GGA](https://www.lcd-module.com/fileadmin/eng/pdf/grafik/oledm128-6e.pdf) built around the [SSD1306](https://cdn-shop.adafruit.com/datasheets/SSD1306.pdf) controller, this module communicates using the I2C protocol. The module's design uses standard MLAB headers and an internal 12V power supply, for powering the OLED display. This  module provides a solution for integrating high-contrast OLED displays into various systems.
 
